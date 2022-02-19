@@ -64,32 +64,36 @@ console.log(coresFavoritas)
 }
 
 // EXERCÍCIO 06
-let textoDoUsuario = prompt("insira um oi")
-function retornaStringEmMaiuscula(texto) {
-   // implemente sua lógica aqui
-
-console.log(resposta)
+function retornoStringMauscula(){
+// implemente sua lógica aqui
+const texto = prompt ("insira um oi")
+return usuario = texto.toLocaleUpperCase()
+console.log(usuario)
 }
-
-
 
 // EXERCÍCIO 07
-function calculaIngressosEspetaculo(custo, valorIngresso) {
+function calculaIngressosEspetaculo(){
   // implemente sua lógica aqui
-
+  let custo = prompt ("insira o custo do espetáculo")
+  let valorIngresso = ("insira o valor do ingresso")
+  return precisaSerVendido = custo/valorIngresso
+  console.log(precisaSerVendido)
 }
 
-// EXERCÍCIO 08
-function checaStringsMesmoTamanho(string1, string2) {
-  // implemente sua lógica aqui
 
+
+// EXERCÍCIO 08
+checaStringsMesmoTamanho() {
+  // implemente sua lógica aqui
+let string1 = prompt ("Escreva uma palavra")
+let string2 = prompt ("Escreva uma palavra")
+return string1. length === string2. length
 }
 
 // EXERCÍCIO 09
-function retornaPrimeiroElemento(array) {
+function retornaPrimeiroElemento() {
   // implemente sua lógica aqui
-
-}
+const Elemento1 = prompt ("Escreva um palavra ou um número")
 
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
