@@ -64,7 +64,7 @@ console.log(coresFavoritas)
 }
 
 // EXERCÍCIO 06
-function retornoStringMauscula(){
+function retornoStringMauscula() {
 // implemente sua lógica aqui
 const texto = prompt ("insira um oi")
 return usuario = texto.toLocaleUpperCase()
@@ -72,7 +72,7 @@ console.log(usuario)
 }
 
 // EXERCÍCIO 07
-function calculaIngressosEspetaculo(){
+function calculaIngressosEspetaculo() {
   // implemente sua lógica aqui
   let custo = prompt ("insira o custo do espetáculo")
   let valorIngresso = ("insira o valor do ingresso")
@@ -93,7 +93,13 @@ return string1. length === string2. length
 // EXERCÍCIO 09
 function retornaPrimeiroElemento() {
   // implemente sua lógica aqui
-const Elemento1 = prompt ("Escreva um palavra ou um número")
+const elemento1 = prompt ("Escreva um palavra ou um número")
+const elemento2 = prompt ("Escreva um palavra ou um número")
+const elemento3 = prompt ("Escreva um palavra ou um número")
+const retorna = [elemento1, elemento2, elemento3 ]
+return 0
+}
+
 
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
