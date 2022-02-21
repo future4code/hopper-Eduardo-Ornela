@@ -91,32 +91,31 @@ return string1. length === string2. length
 }
 
 // EXERCÍCIO 09
-function retornaPrimeiroElemento() {
-  // implemente sua lógica aqui
-const elemento1 = prompt ("Escreva um palavra ou um número")
-const elemento2 = prompt ("Escreva um palavra ou um número")
-const elemento3 = prompt ("Escreva um palavra ou um número")
-const retorna = [elemento1, elemento2, elemento3 ]
-return 0
-}
+function retornaPrimeiroElemento(frutas) {
+  let sacolao = frutas
+  return sacolao[0];
+  } 
 
-
-// EXERCÍCIO 10
-function retornaUltimoElemento(array) {
-  // implemente sua lógica aqui
-
-}
+  // EXERCÍCIO 10
+  function retornaUltimoElemento(frutas) {
+    let sacolao = frutas;
+    return(sacolao[sacolao.length - 1]);
+    }
 
 // EXERCÍCIO 11
-function trocaPrimeiroEUltimo(array) {
-  // implemente sua lógica aqui
-
-}
+ function trocaPrimeiroEUltimo(frutas) {
+  let sacolao = frutas
+  let primeiraPosicao = sacolao[0];
+  let ultimaPosicao = sacolao[sacolao.length - 1];
+  sacolao[sacolao.length - 1] = primeiraPosicao
+  sacolao[0] = ultimaPosicao
+  
+  return sacolao
+  }
 
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
-  // implemente sua lógica aqui
-
+  return string1.localeCompare(string2,  undefined, { sensitivity: 'base' }) === 0;
 }
 
 // EXERCÍCIO 13
