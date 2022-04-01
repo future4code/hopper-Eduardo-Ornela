@@ -1,0 +1,47 @@
+header{
+background-color:mediumvioletred;
+height:70px;
+display:flex;
+justify-content:space-between;
+
+}
+.logo{
+display:flex;
+align-items:center;
+text: indent 40px;px;
+font-style:unset;
+
+}
+.logo >img{
+width:40px;
+margin:40px 40px 40px;
+
+}
+.BOTÃO-LOGIN{
+display:flex;
+align-items:center;
+margin: 40px;px;
+
+}
+main {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 300px 1rf;
+
+}
+main img {
+width: 20px;
+height: 20px;
+   
+}
+section {
+    background-color: blue;
+    width: 200px;
+    height: 900px;
+}
+.esquerda{
+display: grid;
+grid-template-columns: 30px 100px 1fr;
+margin-top: 10px;
+align-items: center;
+}
